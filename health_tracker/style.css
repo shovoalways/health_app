@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: none repeat scroll 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+#tracking_area {
+  width: 100%;
+  clear: both;
+  padding: 45px 0;
+}
+
+.inner_tracking {
+  width: 98%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inner_tracking h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.inner_tracking.main {
+  display: flex;
+}
+
+.child_tracking {
+  background: #4D58DE;
+  color: #fff;
+  width: 25%;
+  padding: 45px 30px;
+  margin: 0 1% 10px;
+  border-radius: 25px;
+}
+
+.child_tracking:nth-child(1) {
+  background: #FD586B;
+}
+
+.child_tracking:nth-child(2) {
+  background: #FEAA48;
+}
+
+.child_tracking:nth-child(3) {
+  background: #36DEED;
+}
+
+.child_tracking i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.child_tracking h5 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  margin: 0 0 10px;
+}
+
+.child_tracking p {
+  margin: 0;
+}
